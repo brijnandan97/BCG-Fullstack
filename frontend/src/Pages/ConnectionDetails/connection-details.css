@@ -1,0 +1,137 @@
+/* Global Styles */
+.details-layout {
+    background-color: #e8f6ea;
+  }
+  
+  /* Form Title */
+  .form-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 0;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Form Container */
+  .connection-details-form {
+    background-color: #ffffff; /* White background for the form */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    max-width: 80%; /* Limit the width of the form */
+    margin: auto; /* Center the form */
+  }
+  
+  /* Form Item */
+  .ant-form-item {
+    margin-bottom: 16px; /* Adjusted spacing between items */
+  }
+  
+  /* Form Labels */
+  .ant-form-item-label {
+    font-weight: 600; /* Bold label */
+    color: #555; /* Darker label color */
+    margin-bottom: 8px; /* Space between label and input */
+  }
+  
+/* Form Grid Layout for Two Fields in One Row */
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 16px; /* Space between fields */
+  }
+  
+  /* Form Input and Select Styles */
+  .ant-input,
+  .ant-select-selector,
+  .ant-input-number {
+    width: 100%; /* Full width for the fields */
+    height: 40px; /* Consistent height for all inputs */
+    border-radius: 8px; /* Rounded corners */
+    border: 1px solid #ced4da; /* Light border */
+    padding: 10px; /* Padding inside inputs */
+    box-sizing: border-box; /* Include padding and border in total width */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+  }
+  
+  /* Consistent Height for Select Fields */
+  .ant-select {
+    height: 40px; /* Set a consistent height */
+  }
+
+  .ant-input-number {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center the contents vertically */
+  }
+  
+  /* Adjust the input number controls for consistent alignment */
+  .ant-input-number-handler-wrap {
+    height: 40px; /* Match the height */
+    top: 0; /* Align with the top of the input */
+  }
+  
+  /* Ensure that the handler buttons have a consistent height */
+  .ant-input-number-handler {
+    height: 20px; /* Adjust the height of the handler buttons */
+    width: 20px; /* Adjust the width of the handler buttons */
+  }
+  
+  /* Adjustments for the input number field */
+  .ant-input-number-input {
+    height: 40px; /* Ensure the input itself matches height */
+    display: flex; /* Flexbox for centering */
+    align-items: center; /* Center vertically */
+  }
+  
+  
+  /* Input Focus Effects */
+  .ant-input:focus,
+  .ant-select:focus,
+  .ant-input-number:focus {
+    border-color: #007bff; /* Primary blue border color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a focus shadow */
+  }
+  
+  /* Button Styles */
+  .form-buttons {
+    justify-content: space-between; /* Space between buttons */
+    margin-top: 20px;
+    display: ruby-text;
+    
+  }
+  
+  /* Submit Button */
+  .submit-button {
+    background-color: #004d40; /* Blue background */
+    color: white;
+    border: none;
+    margin: 10px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 16px; /* Larger font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  /* Submit Button Hover Effect */
+  .submit-button:hover {
+    background-color: lightgreen; /* Darker blue on hover */
+  }
+  
+  /* Cancel Button */
+  .cancel-button {
+    background-color:  gray; /* Red background */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 16px; /* Larger font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  /* Cancel Button Hover Effect */
+  .cancel-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+  }

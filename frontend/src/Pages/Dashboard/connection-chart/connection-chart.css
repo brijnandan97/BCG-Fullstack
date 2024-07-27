@@ -1,0 +1,64 @@
+.connection-chart-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Reduced gap */
+    padding: 20px;
+  }
+  
+  .filters {
+    flex: 1;
+    min-width: 250px; /* Reduced minimum width for better responsiveness */
+    max-width: 350px; /* Reduced maximum width */
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+  }
+  
+  .range-picker-filter {
+    width: 100%; 
+  }
+  
+  .filters .ant-radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px; 
+  }
+  
+  .filters .ant-btn {
+    margin-top: 10px; 
+    width: 100%; 
+    background-color: #004d40;
+    color: white;
+  }
+  
+  .chart {
+    flex: 2; /* Allows the chart to take up remaining space */
+    min-width: 300px; /* Ensure the chart isn't too small */
+    display: flex; /* Use flexbox to center the loader */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    position: relative; /* Ensure relative positioning for the chart content */
+  }
+  
+  .chart-content {
+    width: 100%; /* Ensure the chart takes the full width */
+  }
+  
+  .empty-data {
+    margin-top: 140px;
+  }
+  
+  @media (max-width: 768px) {
+    .connection-chart-container {
+      flex-direction: column;
+    }
+    
+    .filters, .chart {
+      min-width: 100%; 
+    }
+  }
+  

@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #e8f5e9;
+    padding: 10px 0;
+    height: 100px;
+}
+
+.header-container {
+    display: initial;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    /* margin: 0 auto; */
+    /* padding: 0 20px; */
+}
+
+.logo img, .gov-logo img {
+    height: 70px;
+}
